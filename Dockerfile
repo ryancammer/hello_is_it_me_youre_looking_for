@@ -5,7 +5,7 @@ FROM golang:1.20 AS builder
 WORKDIR /app
 
 # Copy go.mod and go.sum files to the working directory
-COPY go.mod main.go ./
+COPY src/go.mod src/main.go ./
 
 # Download dependencies
 RUN go mod download
