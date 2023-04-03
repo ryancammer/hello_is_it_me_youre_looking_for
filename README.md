@@ -1,5 +1,21 @@
 # Hello! Is it me you're looking for?
 
+## Problem
+
+Here’s a take-home from an upcoming interview:
+Assignment: Build a Docker Container for a GoLang Hello World Application using Terraform or CloudFormation.
+To validate your technical keenness and skillset, ____ is requesting you build a Docker container for a simple GoLang Hello World application. You will use Terraform or CloudFormation to automate the building, deploying, and managing of the infrastructure for your Docker container.
+
+Objectives:
+* Create a simple GoLang Hello World application
+* Build a Docker image of the application
+* Use Terraform or CloudFormation to automate the deployment of the Docker container
+* Ensure to use best practices regarding security (credential handling)
+* Please use Gitlab or Github and be ready to share and speak about your code
+* How would you deploy this application using ECS/Kubernetes?
+
+## Solution
+
 This Hello World web application is written in Go and uns on
 [AWS ECS Fargate](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html). 
 It uses [GitHub Actions](https://docs.github.com/en/actions) 
